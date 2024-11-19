@@ -1,0 +1,6 @@
+whoosh
+PyPDF2
+python-docx
+openpyxl
+python-pptx
+python-docx

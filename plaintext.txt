@@ -1,0 +1,23 @@
+WhooshAramaProjesi/
+│
+├── lib/                    # Gerekli kütüphaneler ve bağımlılıklar için
+│   ├── whoosh/             # Whoosh kütüphanesi ve alt dosyaları
+│   └── diğer_kütüphaneler/  # PDF, DOCX, Excel vb. dosyaları işlemek için eklenecek kütüphaneler
+│
+├── app/                    # Uygulama dosyaları için ana klasör
+│   ├── src/                # Kaynak kod dosyaları
+│   │   ├── index_documents.py  # Dosyaları indeksleyen Python kodu
+│   │   └── search_documents.py # Arama işlemini yapan Python kodu
+│   │
+│   ├── data/               # Kullanıcı tarafından yüklenecek dosyaların olduğu klasör
+│   │   └── örnek_dosya.txt # Örnek veri dosyaları (ilk indeksleme testi için)
+│   │
+│   ├── indexdir/           # Whoosh indeks dosyalarının kaydedileceği klasör
+│   │   └── _MAIN_           # Whoosh tarafından otomatik oluşturulacak
+│   │
+│   └── output/             # Çıktı dosyaları veya arama sonuçları için
+│       └── arama_sonuclari.txt  # Arama sonuçlarını kaydeden dosya
+│
+├── README.md               # Proje açıklaması ve kurulum talimatları
+├── requirements.txt        # Gerekli Python paketlerini tanımlayan dosya
+└── setup_offline.bat       # Çevrimdışı bağımlılık kurulum dosyası (Windows için)
